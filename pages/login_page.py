@@ -10,7 +10,7 @@ class LoginPage(BasePage):
     def should_be_login_url(self):
         
         # проверка, что подстрока "login" есть в текущем url браузера (свойство Webdriver)              
-        assert "login" in self.browser.current_url, "Login is not presented in current url"
+        assert "login" in self.browser.current_url, "Login is not presented in current_url"
 
     def should_be_login_form(self):
         
